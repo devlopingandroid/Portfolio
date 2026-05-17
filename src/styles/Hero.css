@@ -1,0 +1,136 @@
+.hero-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #1a1a2e; /* Placeholder for background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  background-image: url(''); /* ← IMAGE URL YAHAN AAYEGI BAAD MEIN */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0d0f1a; /* fallback jab tak image nahi hai */
+  z-index: 0;
+}
+
+.hero-background::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.3)
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding-left: 60px;
+  padding-top: 15vh;
+}
+
+.hero-greeting {
+  display: none; /* Removed based on prompt design */
+}
+
+.hero-name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+  line-height: 1.1;
+}
+
+.hero-role {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.typing-text {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: #aaa;
+  max-width: 500px;
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px; /* gap-3 equivalent */
+}
+
+.btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #111; /* Dark text for contrast */
+}
+
+.btn-primary:hover {
+  background-color: #00b38f;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 212, 170, 0.4);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-secondary:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transform: translateY(-3px);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-name {
+    font-size: 3.5rem;
+  }
+  
+  .hero-role {
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
