@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { FiHome, FiUser, FiCode, FiBriefcase, FiFileText, FiMail, FiMenu, FiX, FiGithub, FiLinkedin, FiTwitter, FiInstagram } from 'react-icons/fi';
 import { SiLeetcode } from 'react-icons/si';
+import yashImg from "../assets/yash.jpg";
 import '../styles/Sidebar.css';
 
 const Sidebar = () => {
@@ -26,7 +27,13 @@ const Sidebar = () => {
 
       <nav className={`sidebar ${isOpen ? 'active' : ''}`}>
         <div className="sidebar-profile">
-          <div className="profile-img-placeholder">Y</div>
+          <div className="profile-img-container">
+            <img
+              src={yashImg}
+              alt="Yash Goel"
+              className="profile-img"
+            />
+          </div>
           <h1 className="profile-name">Yash Goel</h1>
           <p className="profile-title">Software Developer</p>
           <div className="social-links">

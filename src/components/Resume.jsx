@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FiDownload } from 'react-icons/fi';
+import resumePdf from '../assets/Yash_Resume.pdf';
 
 const Resume = () => {
 
@@ -37,9 +39,43 @@ const Resume = () => {
         transition={{ duration: 0.6 }}
       >
         <h2 className="section-title">Resume</h2>
-        <p style={{ color: '#666', marginBottom: '48px' }}>
+        <p style={{ color: '#666', marginBottom: '24px' }}>
           My academic background, experience, projects and achievements.
         </p>
+
+        <div style={{ marginBottom: '40px' }}>
+          <a
+            href={resumePdf}
+            download="Yash_Resume.pdf"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '10px',
+              padding: '12px 28px',
+              background: 'linear-gradient(90deg, #00d4aa, #0099ff)',
+              color: 'white',
+              fontWeight: 600,
+              fontSize: '0.95rem',
+              borderRadius: '30px',
+              border: 'none',
+              cursor: 'pointer',
+              boxShadow: '0 4px 15px rgba(0, 212, 170, 0.25)',
+              transition: 'all 0.3s ease',
+              textDecoration: 'none'
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.transform = 'translateY(-2px)';
+              e.currentTarget.style.boxShadow = '0 6px 20px rgba(0, 212, 170, 0.4)';
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 15px rgba(0, 212, 170, 0.25)';
+            }}
+          >
+            <FiDownload size={18} />
+            Download Resume
+          </a>
+        </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 60px' }}>
 
