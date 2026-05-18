@@ -22,7 +22,7 @@ const Skills = () => {
         transition={{ duration: 0.6 }}
       >
         <h2 className="section-title">My Skills</h2>
-        <p style={{ color: 'var(--secondary-color)', maxWidth: '800px', marginBottom: '2rem' }}>
+        <p style={{ color: '#666', maxWidth: '800px', marginBottom: '2rem' }}>
           A curated list of my technical skills and tools I use on a daily basis.
         </p>
         
@@ -48,7 +48,7 @@ const Skills = () => {
                 marginBottom: '10px'
               }}>
                 <span style={{ 
-                  color: 'white', 
+                  color: '#1a1a2a', 
                   fontSize: '0.85rem', 
                   fontWeight: 600, 
                   textTransform: 'uppercase', 
@@ -57,7 +57,7 @@ const Skills = () => {
                   {skill.name}
                 </span>
                 <span style={{ 
-                  color: 'white', 
+                  color: '#1a1a2a', 
                   fontSize: '0.85rem', 
                   fontWeight: 600, 
                   textTransform: 'uppercase', 
@@ -70,7 +70,7 @@ const Skills = () => {
               <div style={{
                 width: '100%',
                 height: '8px',
-                backgroundColor: 'rgba(255,255,255,0.08)',
+                backgroundColor: 'rgba(0,0,0,0.08)',
                 borderRadius: '4px',
                 overflow: 'hidden'
               }}>

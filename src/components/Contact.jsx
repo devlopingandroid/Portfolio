@@ -45,21 +45,22 @@ const Contact = () => {
   const inputStyle = {
     flex: "1",
     padding: "15px 20px",
-    background: "rgba(255,255,255,.05)",
-    border: "1px solid rgba(255,255,255,.1)",
+    background: "#ffffff",
+    border: "1px solid rgba(0,0,0,0.15)",
     borderRadius: "10px",
-    color: "white",
+    color: "#1a1a2a",
     outline: "none",
     fontSize: "1rem"
   };
 
   const cardStyle = {
-    background: "#121827",
+    background: "#ffffff",
     padding: "28px",
     borderRadius: "18px",
     display: "flex",
     alignItems: "center",
-    gap: "20px"
+    gap: "20px",
+    boxShadow: "0 2px 12px rgba(0,0,0,0.08)"
   };
 
   return (
@@ -75,7 +76,8 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         style={{
           fontSize: "3rem",
-          marginBottom: "15px"
+          marginBottom: "15px",
+          color: "#1a1a2a"
         }}
       >
         Get In Touch
@@ -83,7 +85,7 @@ const Contact = () => {
 
       <p
         style={{
-          color: "#9ca3af",
+          color: "#666",
           marginBottom: "50px"
         }}
       >
@@ -135,9 +137,9 @@ const Contact = () => {
             </div>
 
             <div>
-              <h3>Call Me</h3>
+              <h3 style={{ color: "#1a1a2a", fontSize: "1.2rem", fontWeight: 700, marginBottom: "5px" }}>Call Me</h3>
 
-              <p style={{ color: "#aaa" }}>
+              <p style={{ color: "#666" }}>
                 +91 8059598001
               </p>
             </div>
@@ -169,9 +171,9 @@ const Contact = () => {
             </div>
 
             <div>
-              <h3>Email Me</h3>
+              <h3 style={{ color: "#1a1a2a", fontSize: "1.2rem", fontWeight: 700, marginBottom: "5px" }}>Email Me</h3>
 
-              <p style={{ color: "#aaa" }}>
+              <p style={{ color: "#666" }}>
                 yashgoel15119@gmail.com
               </p>
             </div>
@@ -203,9 +205,9 @@ const Contact = () => {
             </div>
 
             <div>
-              <h3>Freelance</h3>
+              <h3 style={{ color: "#1a1a2a", fontSize: "1.2rem", fontWeight: 700, marginBottom: "5px" }}>Freelance</h3>
 
-              <p style={{ color: "#aaa" }}>
+              <p style={{ color: "#666" }}>
                 Available for projects
               </p>
             </div>
@@ -230,9 +232,10 @@ const Contact = () => {
           style={{
             flex: "1.2",
             minWidth: "420px",
-            background: "#121827",
+            background: "#ffffff",
             padding: "40px",
-            borderRadius: "20px"
+            borderRadius: "20px",
+            boxShadow: "0 2px 12px rgba(0,0,0,0.08)"
           }}
         >
 

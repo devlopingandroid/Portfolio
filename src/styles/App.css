@@ -7,6 +7,7 @@
   margin-left: var(--sidebar-width);
   flex: 1;
   width: calc(100% - var(--sidebar-width));
+  background-color: #f8f9fa;  /* light gray-white, not pure white */
 }
 
 .section-container {
@@ -15,6 +16,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: transparent; /* inherits light bg */
 }
 
 .section-title {
@@ -23,6 +25,7 @@
   margin-bottom: 2rem;
   position: relative;
   display: inline-block;
+  color: #1a1a2a; /* dark navy */
 }
 
 .section-title::after {
@@ -32,7 +35,7 @@
   bottom: -10px;
   width: 60px;
   height: 4px;
-  background-color: var(--primary-color);
+  background-color: #00d4aa; /* keep #00d4aa */
   border-radius: 2px;
 }
 

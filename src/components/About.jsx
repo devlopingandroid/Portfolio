@@ -14,7 +14,7 @@ const About = () => {
       >
         <h2 className="section-title">About Me</h2>
 
-        <p style={{ color: 'var(--secondary-color)', maxWidth: '100%', fontSize: '1.1rem', marginBottom: '40px' }}>
+        <p style={{ color: '#444', maxWidth: '100%', fontSize: '1.1rem', marginBottom: '40px' }}>
           Hello! I'm Yash Goel, a passionate developer building modern web and mobile applications.
           I specialize in React, React Native, and implementing AI-driven solutions. With a keen eye
           for design and a drive for performance, I create digital experiences that are both beautiful
@@ -39,11 +39,11 @@ const About = () => {
           </div>
 
           <div style={{ flex: '1 1 60%', minWidth: '300px' }}>
-            <h3 style={{ fontSize: '1.8rem', fontWeight: 700, marginBottom: '10px', color: 'white' }}>
+            <h3 style={{ fontSize: '1.8rem', fontWeight: 700, marginBottom: '10px', color: '#1a1a2a' }}>
               AI Builder & Full Stack Developer.
             </h3>
 
-            <p style={{ fontStyle: 'italic', color: 'var(--secondary-color)', marginBottom: '20px' }}>
+            <p style={{ fontStyle: 'italic', color: '#666', marginBottom: '20px' }}>
               Turning complex problems into elegant, user-friendly solutions using cutting-edge technologies.
             </p>
 
@@ -51,49 +51,49 @@ const About = () => {
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <FiChevronRight style={{ color: '#00d4aa', fontWeight: 'bold' }} />
-                <strong style={{ color: 'white', fontWeight: 600 }}>Birthday:</strong>
-                <span style={{ color: '#aaa' }}>3 September 2006</span>
+                <strong style={{ color: '#1a1a2a', fontWeight: 600 }}>Birthday:</strong>
+                <span style={{ color: '#555' }}>3 September 2006</span>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <FiChevronRight style={{ color: '#00d4aa', fontWeight: 'bold' }} />
-                <strong style={{ color: 'white', fontWeight: 600 }}>Age:</strong>
-                <span style={{ color: '#aaa' }}>19</span>
+                <strong style={{ color: '#1a1a2a', fontWeight: 600 }}>Age:</strong>
+                <span style={{ color: '#555' }}>19</span>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <FiChevronRight style={{ color: '#00d4aa', fontWeight: 'bold' }} />
-                <strong style={{ color: 'white', fontWeight: 600 }}>Degree:</strong>
-                <span style={{ color: '#aaa' }}>B.Tech</span>
+                <strong style={{ color: '#1a1a2a', fontWeight: 600 }}>Degree:</strong>
+                <span style={{ color: '#555' }}>B.Tech</span>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <FiChevronRight style={{ color: '#00d4aa', fontWeight: 'bold' }} />
-                <strong style={{ color: 'white', fontWeight: 600 }}>Phone:</strong>
-                <span style={{ color: '#aaa' }}>+91 8059598001</span>
+                <strong style={{ color: '#1a1a2a', fontWeight: 600 }}>Phone:</strong>
+                <span style={{ color: '#555' }}>+91 8059598001</span>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <FiChevronRight style={{ color: '#00d4aa', fontWeight: 'bold' }} />
-                <strong style={{ color: 'white', fontWeight: 600 }}>Email:</strong>
-                <span style={{ color: '#aaa' }}>yashgoel15119@gmail.com</span>
+                <strong style={{ color: '#1a1a2a', fontWeight: 600 }}>Email:</strong>
+                <span style={{ color: '#555' }}>yashgoel15119@gmail.com</span>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <FiChevronRight style={{ color: '#00d4aa', fontWeight: 'bold' }} />
-                <strong style={{ color: 'white', fontWeight: 600 }}>City:</strong>
-                <span style={{ color: '#aaa' }}>Delhi, India</span>
+                <strong style={{ color: '#1a1a2a', fontWeight: 600 }}>City:</strong>
+                <span style={{ color: '#555' }}>Delhi, India</span>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <FiChevronRight style={{ color: '#00d4aa', fontWeight: 'bold' }} />
-                <strong style={{ color: 'white', fontWeight: 600 }}>Freelance:</strong>
-                <span style={{ color: '#aaa' }}>Available</span>
+                <strong style={{ color: '#1a1a2a', fontWeight: 600 }}>Freelance:</strong>
+                <span style={{ color: '#555' }}>Available</span>
               </div>
 
             </div>
 
-            <p style={{ color: 'var(--secondary-color)' }}>
+            <p style={{ color: '#444' }}>
               I am constantly exploring new technologies, frameworks, and architectural patterns to deliver high-performance applications.
               My goal is to create products that provide a seamless user experience while maintaining robust, scalable backends.
             </p>

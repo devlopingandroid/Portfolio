@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg-color: #050b16;
-  --text-color: #f8fafc;
+  --bg-color: #f8f9fa;
+  --text-color: #1a1a2a;
   --sidebar-bg: #0d0d1a;
   --sidebar-width: 280px;
   --primary-color: #00d4aa;
-  --secondary-color: #aaa;
-  --hover-color: #1e1e2e;
+  --secondary-color: #555;
+  --hover-color: rgba(0,0,0,0.04);
   --accent-color: #00d4aa;
-  --border-color: rgba(255, 255, 255, 0.1);
+  --border-color: rgba(0,0,0,0.1);
+  --card-bg: #ffffff;
 }
 
 * {
